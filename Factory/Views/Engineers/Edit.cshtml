@@ -15,6 +15,9 @@
   @Html.LabelFor(model => model.Name)
   @Html.EditorFor(model => model.Name)
 
+  @Html.Label("Select machine")
+  @Html.DropDownList("MachineId")
+
   <input type="submit" value="Save" class="btn btn-outline-success">
 }
 
